@@ -8,21 +8,20 @@ package buddyTools;
 import java.util.Date;
 
 /**
- *
+ * CMember object that represents a committee member and stores required data 
+ * for each instance. Includes helper methods that are to be run on these objects.
  * @author canishkadesilva
  */
 public class CMember {
     String name;
-    String memberID;
     String committee;
     Date dateAdded;
     Cabinet firstChoice;
     Cabinet secondChoice;
     Cabinet thirdChoice;
     
-    public CMember(String _name, String _memberID, String _committee, Date _dateAdded, Cabinet _first, Cabinet _second, Cabinet _third) {
+    public CMember(String _name, String _committee, Date _dateAdded, Cabinet _first, Cabinet _second, Cabinet _third) {
         name = _name;
-        memberID = _memberID;
         committee = _committee;
         dateAdded = _dateAdded;
         firstChoice = _first;

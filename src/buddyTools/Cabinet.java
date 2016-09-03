@@ -9,7 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * Cabinet object that represents a cabinet member and stores required data 
+ * for each instance. Includes helper methods that are to be run on these objects.
  * @author canishkadesilva
  */
 public class Cabinet {

@@ -10,7 +10,8 @@ import java.util.Iterator;
 import java.util.Map;
 
 /**
- *
+ * Data Structure that will store the Cabinet objects, which includes the buddy
+ * groups. Includes the methods to be run on these objects.
  * @author canishkadesilva
  */
 public class CabMap {

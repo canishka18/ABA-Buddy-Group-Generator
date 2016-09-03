@@ -12,7 +12,9 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- *
+ * Temp Data structure that stores the committee members for traversals. 
+ * Includes methods to be run on these objects. Also includes the traversal 
+ * method that contains the algorithm in charge of assigning buddies.
  * @author canishkadesilva
  */
 public class CMList {
